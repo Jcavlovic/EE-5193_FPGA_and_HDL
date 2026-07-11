@@ -1,0 +1,7 @@
+Running: xsim.dir/lab_4a_bcd_tb_behav/xsimk -simmode gui -wdb lab_4a_bcd_tb_behav.wdb -simrunnum 0 -socket 54143
+Design successfully loaded
+Design Loading Memory Usage: 197060 KB (Peak: 197180 KB)
+Design Loading CPU Usage: 1660 ms
+Simulation completed
+Simulation Memory Usage: 278796 KB (Peak: 336328 KB)
+Simulation CPU Usage: 1670 ms

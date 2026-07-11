@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+bcd =  0, out = 0
+bcd =  1, out = 0
+bcd =  2, out = 0
+bcd =  3, out = 0
+bcd =  4, out = 0
+bcd =  5, out = 0
+bcd =  6, out = 0
+bcd =  7, out = 0
+bcd =  8, out = 0
+bcd =  9, out = 0
+bcd = 10, out = 1
+bcd = 11, out = 1
+bcd = 12, out = 1
+bcd = 13, out = 1
+bcd = 14, out = 1
+bcd = 15, out = 1
+$finish called at time : 160 ns : File "/home/cavlovicj/Projects/lab_4a/lab_4a.srcs/sim_1/new/lab_4a_bcd_tb.v" Line 21
+INFO: xsimkernel Simulation Memory Usage: 278796 KB (Peak: 336328 KB), Simulation CPU Usage: 1670 ms

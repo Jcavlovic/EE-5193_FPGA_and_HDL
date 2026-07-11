@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 14 2025
+12:36:23
+/home/cavlovicj/lab3.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+/home/cavlovicj/lab3.srcs/sim_1/new/lab3_tb.v,1781406288,verilog,,,,lab3_tb,,,../../../../Vivado/2025.2/data/rsb/busdef,,,,,
+/home/cavlovicj/lab3.srcs/sources_1/new/lab3.v,1781406375,verilog,,/home/cavlovicj/lab3.srcs/sim_1/new/lab3_tb.v,,lab3,,,../../../../Vivado/2025.2/data/rsb/busdef,,,,,

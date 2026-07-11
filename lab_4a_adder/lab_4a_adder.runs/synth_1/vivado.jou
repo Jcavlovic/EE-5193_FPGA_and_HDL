@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun 16 20:41:22 2026
+# Process ID         : 1059312
+# Current directory  : /home/cavlovicj/Projects/lab_4a_adder/lab_4a_adder.runs/synth_1
+# Command line       : vivado -log lab_4a_4bit_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab_4a_4bit_adder.tcl
+# Log file           : /home/cavlovicj/Projects/lab_4a_adder/lab_4a_adder.runs/synth_1/lab_4a_4bit_adder.vds
+# Journal file       : /home/cavlovicj/Projects/lab_4a_adder/lab_4a_adder.runs/synth_1/vivado.jou
+# Running On         : LinuxVM
+# Platform           : cachyos
+# Operating System   : CachyOS
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz
+# CPU Frequency      : 3491.912 MHz
+# CPU Physical cores : 3
+# CPU Logical cores  : 6
+# Host memory        : 16856 MB
+# Swap memory        : 1984 MB
+# Total Virtual      : 18841 MB
+# Available Virtual  : 10951 MB
+#-----------------------------------------------------------
+source lab_4a_4bit_adder.tcl -notrace

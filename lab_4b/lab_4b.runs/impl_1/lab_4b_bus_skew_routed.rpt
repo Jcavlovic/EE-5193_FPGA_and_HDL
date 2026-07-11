@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+| Date         : Mon Jun 22 21:33:09 2026
+| Host         : LinuxVM running 64-bit CachyOS
+| Command      : report_bus_skew -warn_on_violation -file lab_4b_bus_skew_routed.rpt -pb lab_4b_bus_skew_routed.pb -rpx lab_4b_bus_skew_routed.rpx
+| Design       : lab_4b
+| Device       : 7k70t-fbv676
+| Speed File   : -1  PRODUCTION 1.12 2017-02-17
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

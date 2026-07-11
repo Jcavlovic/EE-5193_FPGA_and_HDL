@@ -1,0 +1,18 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/cavlovicj/Vivado/2025.2/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_4a_4bit_adder_tb_behav xil_defaultlib.lab_4a_4bit_adder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'cin' is not connected on this instance [/home/cavlovicj/Projects/lab_4a_adder/lab_4a_adder.srcs/sim_1/new/lab_4a_4bit_adder_tb.v:10]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lab_4a_half_adder
+Compiling module xil_defaultlib.lab_4a_full_adder
+Compiling module xil_defaultlib.lab_4a_4bit_adder
+Compiling module xil_defaultlib.lab_4a_4bit_adder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_4a_4bit_adder_tb_behav

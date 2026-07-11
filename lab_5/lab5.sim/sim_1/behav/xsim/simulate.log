@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+OP_CODE = ADD, A_BUS = 01, B_BUS = 01, OUT = 02
+OP_CODE = ADD, A_BUS = 07, B_BUS = 07, OUT = 0e
+OP_CODE = ADD, A_BUS = 1f, B_BUS = 1f, OUT = 3e
+OP_CODE = ADD, A_BUS = 3f, B_BUS = 3f, OUT = 7e
+OP_CODE = SUB, A_BUS = 01, B_BUS = 00, OUT = 01
+OP_CODE = SUB, A_BUS = 03, B_BUS = 01, OUT = 02
+OP_CODE = SUB, A_BUS = 04, B_BUS = 01, OUT = 03
+OP_CODE = SUB, A_BUS = 3f, B_BUS = 3f, OUT = 00
+OP_CODE = MUL, A_BUS = 01, B_BUS = 01, OUT = 01
+OP_CODE = MUL, A_BUS = 01, B_BUS = 03, OUT = 03
+OP_CODE = MUL, A_BUS = 01, B_BUS = 14, OUT = 14
+OP_CODE = MUL, A_BUS = 01, B_BUS = 07, OUT = 07
+INFO: xsimkernel Simulation Memory Usage: 278804 KB (Peak: 336336 KB), Simulation CPU Usage: 1660 ms

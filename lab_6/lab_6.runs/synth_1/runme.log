@@ -1,0 +1,365 @@
+
+*** Running vivado
+    with args -log lab_6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab_6.tcl
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Jul  9 12:36:58 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source lab_6.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/cavlovicj/Projects/lab_6/lab_6.srcs/utils_1/imports/synth_1/lab_6.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/cavlovicj/Projects/lab_6/lab_6.srcs/utils_1/imports/synth_1/lab_6.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top lab_6 -part xc7a100ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 467988
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2207.434 ; gain = 487.125 ; free physical = 3720 ; free virtual = 6968
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab_6' [/home/cavlovicj/Projects/lab_6/lab_6.srcs/sources_1/new/lab_6.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_1hz' [/home/cavlovicj/Projects/lab_6/lab_6.srcs/sources_1/new/clk_1hz.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'clk_1hz' (0#1) [/home/cavlovicj/Projects/lab_6/lab_6.srcs/sources_1/new/clk_1hz.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'lab_6' (0#1) [/home/cavlovicj/Projects/lab_6/lab_6.srcs/sources_1/new/lab_6.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2289.402 ; gain = 569.094 ; free physical = 3637 ; free virtual = 6886
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2304.246 ; gain = 583.938 ; free physical = 3635 ; free virtual = 6884
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2304.246 ; gain = 583.938 ; free physical = 3635 ; free virtual = 6884
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2304.246 ; gain = 0.000 ; free physical = 3635 ; free virtual = 6884
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_B'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_G'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_R'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_B'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_G'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_R'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn3'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp3'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn10'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp10'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn2'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp2'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn11'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp11'. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/cavlovicj/Projects/NEXYS_Constraints/nexysA7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab_6_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab_6_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2377.984 ; gain = 0.000 ; free physical = 4592 ; free virtual = 7841
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2378.020 ; gain = 0.000 ; free physical = 4592 ; free virtual = 7841
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2378.020 ; gain = 657.711 ; free physical = 5891 ; free virtual = 9140
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2385.988 ; gain = 665.680 ; free physical = 5891 ; free virtual = 9140
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2385.988 ; gain = 665.680 ; free physical = 5891 ; free virtual = 9140
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2385.988 ; gain = 665.680 ; free physical = 5891 ; free virtual = 9140
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2385.988 ; gain = 665.680 ; free physical = 5960 ; free virtual = 9215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2469.988 ; gain = 749.680 ; free physical = 5899 ; free virtual = 9154
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2489.020 ; gain = 768.711 ; free physical = 5886 ; free virtual = 9142
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2489.020 ; gain = 768.711 ; free physical = 5886 ; free virtual = 9142
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |     2|
+|5     |LUT6   |     6|
+|6     |FDRE   |    33|
+|7     |IBUF   |     1|
+|8     |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.832 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2664.832 ; gain = 870.750 ; free physical = 5759 ; free virtual = 9014
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2664.840 ; gain = 944.523 ; free physical = 5759 ; free virtual = 9014
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2664.840 ; gain = 0.000 ; free physical = 5759 ; free virtual = 9014
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2704.852 ; gain = 0.000 ; free physical = 5918 ; free virtual = 9173
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b6689158
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 46 Warnings, 46 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 2704.887 ; gain = 1135.695 ; free physical = 5918 ; free virtual = 9173
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2051.865; main = 2051.865; forked = 366.778
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3376.562; main = 2704.855; forked = 990.570
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2728.863 ; gain = 0.000 ; free physical = 5918 ; free virtual = 9173
+INFO: [Common 17-1381] The checkpoint '/home/cavlovicj/Projects/lab_6/lab_6.runs/synth_1/lab_6.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file lab_6_utilization_synth.rpt -pb lab_6_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  9 12:37:36 2026...

@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+A B C | F
+0 0 0 | 0
+0 0 1 | 1
+0 1 0 | 1
+0 1 1 | 0
+1 0 0 | 1
+1 0 1 | 0
+1 1 0 | 0
+$finish called at time : 70 ns : File "/home/cavlovicj/lab3.srcs/sim_1/new/lab3_tb.v" Line 30
+INFO: xsimkernel Simulation Memory Usage: 278468 KB (Peak: 336000 KB), Simulation CPU Usage: 1570 ms

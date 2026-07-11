@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+SW[0] = 0, SW[1] = 0, LED[0] = 0. LED[1] = z
+SW[0] = 0, SW[1] = 1, LED[0] = 0. LED[1] = z
+SW[0] = 1, SW[1] = 1, LED[0] = 1. LED[1] = z
+INFO: xsimkernel Simulation Memory Usage: 278796 KB (Peak: 336328 KB), Simulation CPU Usage: 1550 ms

@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+A =  0, B =  0, OUT =  0, COUT = 0
+A =  0, B =  1, OUT =  1, COUT = 0
+A =  2, B =  3, OUT =  5, COUT = 0
+A =  4, B =  5, OUT =  9, COUT = 0
+A =  5, B =  6, OUT = 11, COUT = 0
+A =  7, B =  8, OUT = 15, COUT = 0
+A =  9, B = 10, OUT =  3, COUT = 1
+INFO: xsimkernel Simulation Memory Usage: 278812 KB (Peak: 336344 KB), Simulation CPU Usage: 1670 ms

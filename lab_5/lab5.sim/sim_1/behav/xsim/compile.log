@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cavlovicj/Projects/lab5/lab5.srcs/sources_1/new/lab5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'LED' is not allowed [/home/cavlovicj/Projects/lab5/lab5.srcs/sources_1/new/lab5.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cavlovicj/Projects/lab5/lab5.srcs/sim_1/new/lab5_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5_tb

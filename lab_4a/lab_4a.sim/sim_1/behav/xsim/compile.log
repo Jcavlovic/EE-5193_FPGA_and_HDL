@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cavlovicj/Projects/lab_4a/lab_4a.srcs/sources_1/new/lab_4a_bcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_4a_bcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cavlovicj/Projects/lab_4a/lab_4a.srcs/sim_1/new/lab_4a_bcd_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_4a_bcd_tb

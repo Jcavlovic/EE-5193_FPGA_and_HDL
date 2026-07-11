@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+A =      12432, B =        756, out =         84
+A =      78653, B =      34526, out =          1
+A =    6343623, B =  245256234, out =          3
+A =    6549828, B =    3265146, out =          6
+INFO: xsimkernel Simulation Memory Usage: 278800 KB (Peak: 336332 KB), Simulation CPU Usage: 1560 ms
