@@ -7,7 +7,7 @@
 // Design Name: Address Select
 // Module Name: address_select
 // Project Name: EE-5193 Final Project
-// Target Devices: NEXYSA7
+// Target Devices: NEXYS A7
 // Tool Versions: 
 // Description: Address Select for RISC Final Project
 // 

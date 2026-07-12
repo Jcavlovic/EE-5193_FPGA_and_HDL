@@ -3,32 +3,32 @@
 // Company: UTSA EE-5193 FPGA and HDL
 // Engineer: Jordan Cavlovic
 // 
-// Create Date: 07/12/2026 01:05:46 PM
-// Design Name: Instruction Register
-// Module Name: instruction_register
+// Create Date: 07/12/2026 01:41:30 PM
+// Design Name: D Flip Flop
+// Module Name: d_flipflop
 // Project Name: EE-5193 Final Project
 // Target Devices: NEXYS A7
 // Tool Versions: 
-// Description: Instruction Register for RISC Final Project
+// Description: D Flip Flop for Final Project
 // 
 // Dependencies: 
 // 
 // Revision: 0.05
 // Revision 0.01 - File Created
-// Revision 0.05 - Prototype Instruction Register
+// Revision 0.05 - Prototype D Flip Flop
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module instruction_register #(parameter width = 32)
+module d_flipflop 
     (
-    input [width - 1: 0] data_in,
-    input ld, CLK100MHZ,
-    output reg [width - 1:0] data_out
+    input data_in, ld, clr, CLK100MHZ,
+    output reg data_out
     );
     
     always @(posedge CLK100MHZ) begin
-        if (ld) begin data_out <= data_in; end
+        if (clr) begin data_out <= 1'b0; end
+        else if (ld) begin data_out <= data_in; end
     end
 endmodule

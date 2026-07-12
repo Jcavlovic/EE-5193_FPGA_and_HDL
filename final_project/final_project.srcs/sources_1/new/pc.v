@@ -7,7 +7,7 @@
 // Design Name: Program Counter
 // Module Name: pc
 // Project Name: EE-5193 Final Project
-// Target Devices: NEXYSA7
+// Target Devices: NEXYS A7
 // Tool Versions: 
 // Description: Program counter for RISC Final Project
 // 
