@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+A B C | F
+0 0 0 | 0
+0 0 1 | 0
+0 1 0 | 1
+0 1 1 | 1
+1 0 0 | 0
+1 0 1 | 0
+1 1 0 | 1
+1 1 1 | 0
+$finish called at time : 80 ns : File "/home/cavlovicj/repo/EE-5193_FPGA_and_HDL/lab_2/lab_2.srcs/sim_1/new/lab_2_tb.v" Line 35
+INFO: xsimkernel Simulation Memory Usage: 278800 KB (Peak: 336332 KB), Simulation CPU Usage: 1580 ms
